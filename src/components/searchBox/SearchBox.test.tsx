@@ -8,7 +8,9 @@ import { rest } from "msw"
 
 const server = setupServer(...handlers)
 
-const queryClient = new QueryClient()
+const queryClient = new QueryClient({
+	defaultOptions: { queries: { retry: false } },
+})
 
 beforeAll(() => {
 	server.listen()

@@ -15,7 +15,7 @@ const SearchBox = () => {
 		() => fetchSearchByTerm(debouncedSearchTerm),
 		{
 			enabled: debouncedSearchTerm.length > 2,
-			retry: 0,
+			staleTime: 60000,	
 		}
 	)
 
