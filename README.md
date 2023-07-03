@@ -1,6 +1,10 @@
 ## Available Scripts
 
-In the project directory, you can run:
+After pulling down repo first run:
+
+### `npm install`
+
+In the project directory, you can then run:
 
 ### `npm start`
 
