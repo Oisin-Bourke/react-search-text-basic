@@ -1,5 +1,5 @@
 import { rest } from "msw"
-import { resultsItems } from "./mockData"
+import { mockSearchData } from "./mockData"
 import { filterResultsWithLimit } from "./mockHelpers"
 
 export const handlers = [
@@ -18,7 +18,7 @@ export const handlers = [
 
 		const filteredResults = filterResultsWithLimit(
 			searchText,
-			resultsItems,
+			mockSearchData,
 			5
 		)
 

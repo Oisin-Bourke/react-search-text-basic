@@ -1,6 +1,6 @@
-import { SearchResultMock } from "../types/searchResultItem"
+import { MockSearchData } from "../types/searchResultItem"
 
-export const resultsItems = [
+export const mockSearchData = [
 	{
 		id: 1,
 		title: "Apple",
@@ -57,4 +57,4 @@ export const resultsItems = [
 		content:
 			"A kiwi is a small, brown fruit with green flesh and edible black seeds.",
 	},
-] as SearchResultMock[]
+] as MockSearchData[]

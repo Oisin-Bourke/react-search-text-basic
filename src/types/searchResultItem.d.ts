@@ -7,6 +7,6 @@ export interface SearchResultsResponse {
 	results: SearchResult[]
 }
 
-export interface SearchResultMock extends SearchResult {
+export interface MockSearchData extends SearchResult {
 	content: string
 }
